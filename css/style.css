@@ -96,3 +96,20 @@ a{
     position: absolute;
     top: 80%;
 }
+
+.column i:hover{
+    color: red;
+}
+
+.overlay{
+    display: none;
+}
+
+.column:hover .firstimage {
+    display:none;
+}
+
+.column:hover .overlay{
+    display:flex;
+}
+
