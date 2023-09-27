@@ -27,15 +27,72 @@ a{
 
 .row{
     display: flex;
+    justify-content: space-between;
 }
 
 .row img{
-    width: 350px;
+    width: 480px;
 }
 
 
 .column{
-    width: 33.3%;
+    width: fit-content;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.footercontainer{
+    width: 80%;
+    margin: auto;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgbox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgtext{
+    height: 40px;
+}
+
+.sale-but{
+    width: fit-content;
+    padding: 2px 6px; 
+    position: absolute;
+    top: 80%;
+}
+
+
+.soste-but{
+    width: fit-content;
+    padding: 2px 6px; 
+    position: absolute;
+    top: 80%;
+    left: 50px;
+}
+
+.wish-but{
+    width: fit-content;
+    padding: 12px;
+    position: absolute;
+    top:8px;
+    right: 0;
+}
+
+.soste-but2{
+    width: fit-content;
+    padding: 2px 6px; 
+    position: absolute;
+    top: 80%;
 }

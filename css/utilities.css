@@ -10,10 +10,31 @@
     background-color: rgba(26,26,26,255);
 }
 
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+
 /** Font color **/
 
 .c-white{
     color: white;
+}
+
+.c-red{
+    color: red;
+}
+
+.c-black{
+    color: black;
 }
 
 /** Margin **/
@@ -26,6 +47,47 @@
     margin-right: 4px;
 }
 
+.margin-r9{
+    margin-right: 4px;
+}
+
+
+.margin-t3{
+    margin-top: 3px;
+}
+
 .margin-t30{
     margin-top: 30px;
+}
+
+.margin-t10{
+    margin-top: 10px;
+}
+
+.margin-b30{
+    margin-bottom: 30px;
+}
+
+/** Font size **/
+
+.f-size10{
+    font-size: 10px;
+}
+
+.f-size12{
+    font-size: 12px;
+}
+
+.f-size15{
+    font-size: 15px;
+}
+
+.f-size20{
+    font-size: 20px;
+}
+
+/**Font Weight**/
+
+.f-weight700{
+    font-weight: 700;
 }
