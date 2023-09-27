@@ -14,12 +14,35 @@ header{
     position: sticky;
     top:0;
     z-index: 999;
+    box-shadow: 10px 2px 20px rgb(167, 167, 167);
 }
 
 .headercontainer{
     display:flex;
     min-height:60px;
-    box-shadow: 10px 2px 20px rgb(167, 167, 167);
+    
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.categories{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .headercontainer img{
